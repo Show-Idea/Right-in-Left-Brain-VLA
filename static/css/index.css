@@ -38,7 +38,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.nowrap { white-space: nowrap; }
 /* Modern Button Styles */
 .button {
   border-radius: var(--border-radius) !important;
