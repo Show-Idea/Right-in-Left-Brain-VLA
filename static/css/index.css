@@ -756,5 +756,15 @@ a:focus {
   line-height: 1.3;    /* 如需更舒展，可 1.3~1.35；若被前面的 !important 顶掉就加 !important */
   /* line-height: 1.3 !important; */
 }
+.title-container {
+  display: flex;
+  align-items: center;   /* 图片和文字垂直居中 */
+  justify-content: center; /* 居中整体 */
+  gap: 12px;  /* 图片和文字之间间距 */
+}
 
+.title-logo {
+  width: 60px;   /* 控制图片大小 */
+  height: 60px;  /* 可以根据需要调整 */
+}
 
