@@ -655,7 +655,7 @@ code {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 960px) {
   .publication-title {
     font-size: 2rem !important;
   }
