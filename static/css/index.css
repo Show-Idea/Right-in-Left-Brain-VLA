@@ -747,5 +747,14 @@ a:focus {
     box-shadow: none !important;
   }
 }
+/* 只限制首页大标题（h1）的排版宽度 */
+.hero .publication-title {
+  max-width: 1000px;     /* 可改 52ch / 68ch 或 800px，按你喜好 */
+  margin-left: auto;   /* 居中 */
+  margin-right: auto;  /* 居中 */
+  display: block;      /* 保持块级，配合 margin auto 生效 */
+  line-height: 1.3;    /* 如需更舒展，可 1.3~1.35；若被前面的 !important 顶掉就加 !important */
+  /* line-height: 1.3 !important; */
+}
 
 
