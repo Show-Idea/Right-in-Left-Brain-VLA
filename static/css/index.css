@@ -655,7 +655,7 @@ code {
   }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 480px) {
   .publication-title {
     font-size: 2rem !important;
   }
@@ -747,10 +747,14 @@ a:focus {
     box-shadow: none !important;
   }
 }
+/* Limit only the main title width */
 .publication-title {
-  max-width: 60ch;   /* 调整到合适的宽度 */
-  margin: 0 auto;     /* 居中 */
-  line-height: 1.3;   /* 调整行距 */
+  max-width: 60ch !important; /* 或 800px，先用 !important 保证应用 */
+  display: inline-block;       /* 让元素收缩到内容宽度 */
+  line-height: 1.3;            /* 行距可按需改 */
 }
+
+/* 父级已有 .has-text-centered，一般不必再加；保险起见： */
+.column.has-text-centered { text-align: center; }
 
 
