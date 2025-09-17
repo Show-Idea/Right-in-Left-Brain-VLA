@@ -760,7 +760,7 @@ a:focus {
 .title-container { text-align: center; }
 
 .title-logo {
-  width: 120px;   /* 控制图片大小 */
+  width: 166px;   /* 控制图片大小 */
   height: auto;  /* 可以根据需要调整 */
   flex: 0 0 auto;
 }
