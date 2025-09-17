@@ -765,7 +765,7 @@ a:focus {
 }
 
 .title-logo {
-  width: 10px;   /* 控制图片大小 */
+  width: 80px;   /* 控制图片大小 */
   height: auto;  /* 可以根据需要调整 */
   flex: 0 0 auto;
 }
